@@ -13,3 +13,10 @@ import editor from 'vue-so-editor'
 
 Vue.use(editor)
 ```
+
+```
+<!--example.vue -->
+<template>
+<so-editor></so-editor>
+</template>
+```
