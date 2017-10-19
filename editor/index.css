@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+// editor styles
+
+.editor-block {
+
+}
+
+.no-inherit-style {
+  font-weight: normal;
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+  animation-name: none;
+}
+
+.editor-bolder {
+  font-weight: bold;
+}
+
+.editor-yellow {
+  color: yellow;
+}
+.editor-italic {
+  font-style: italic;
+}
+.editor-underline {
+  text-decoration: underline;
+}
+.editor-ani-scale {
+  animation-name: scaleAndScale;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.editor-backgroud-green {
+  background-color: green
+}
+.editor-backgroud-purple {
+  background-color: purple
+}
+
+
+@keyframes scaleAndScale {
+  0% {
+    color: red
+  }
+  100% {
+    color: blue
+  }
+}
