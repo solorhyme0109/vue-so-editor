@@ -1,3 +1,4 @@
+# packaged
 # vue-so-editor
 A rich editor for vue
 
